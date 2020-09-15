@@ -18,3 +18,5 @@ namespace UdemyHelloWorld2
         }
     }
 }
+           //for modal when you want user to take action
+           // await Navigation.PushModalAsync(new IntroductionPage());
