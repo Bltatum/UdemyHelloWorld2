@@ -9,13 +9,17 @@ namespace UdemyHelloWorld2
         public App()
         {
             InitializeComponent();
-
+            //basic nav page
             //MainPage = new NavigationPage(new WelcomePage())
             //{
             //    BarBackgroundColor = Color.Gray,
             //    BarTextColor = Color.White
             //};
-            MainPage = new NavigationPage( new ContactsPage());
+
+
+             MainPage = new TabbedExample();
+            
+           
         }
 
         protected override void OnStart()

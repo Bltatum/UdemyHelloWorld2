@@ -15,14 +15,14 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
+    <Compile Update="Tabbed.xaml.cs">
+      <DependentUpon>Tabbed.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="TabbedExample.xaml.cs">
+      <DependentUpon>TabbedExample.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="ContactDetailPage.xaml.cs">
-      <DependentUpon>ContactDetailPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="ContactsPage.xaml.cs">
-      <DependentUpon>ContactsPage.xaml</DependentUpon>
-    </Compile>
+    <Folder Include="Icons\" />
   </ItemGroup>
 </Project>
