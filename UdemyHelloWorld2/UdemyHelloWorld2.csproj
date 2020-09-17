@@ -14,4 +14,15 @@
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1364" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Tabbed.xaml.cs">
+      <DependentUpon>Tabbed.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="TabbedExample.xaml.cs">
+      <DependentUpon>TabbedExample.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Icons\" />
+  </ItemGroup>
 </Project>

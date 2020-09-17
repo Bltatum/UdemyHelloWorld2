@@ -134,4 +134,7 @@
       <Name>UdemyHelloWorld2</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\clock.png" />
+  </ItemGroup>
 </Project>
