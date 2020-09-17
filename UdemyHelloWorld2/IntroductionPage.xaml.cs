@@ -24,5 +24,3 @@ namespace UdemyHelloWorld2
         }
     }
 }
-          //To go back when in a modal
-          //  await Navigation.PopModalAsync();

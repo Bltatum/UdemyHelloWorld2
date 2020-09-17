@@ -16,9 +16,10 @@ namespace UdemyHelloWorld2
             //    BarTextColor = Color.White
             //};
 
-             MainPage = new TabbedExample();
 
+             MainPage = new TabbedExample();
             
+           
         }
 
         protected override void OnStart()
