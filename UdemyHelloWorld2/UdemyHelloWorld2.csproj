@@ -24,6 +24,9 @@
     <Compile Update="CarouselExample.xaml.cs">
       <DependentUpon>CarouselExample.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Popups.xaml.cs">
+      <DependentUpon>Popups.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Icons\" />
