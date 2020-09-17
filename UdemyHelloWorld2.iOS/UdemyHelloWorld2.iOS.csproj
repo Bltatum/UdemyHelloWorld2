@@ -135,6 +135,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\clock.png" />
+    <BundleResource Include="Resources\drawable\clock.png" />
+    <BundleResource Include="Resources\drawable\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
   </ItemGroup>
 </Project>
