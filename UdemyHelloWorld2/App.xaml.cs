@@ -17,7 +17,7 @@ namespace UdemyHelloWorld2
             //};
 
 
-             MainPage = new TabbedExample();
+             MainPage = new CarouselExample();
             
            
         }

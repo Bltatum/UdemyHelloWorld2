@@ -21,6 +21,9 @@
     <Compile Update="TabbedExample.xaml.cs">
       <DependentUpon>TabbedExample.xaml</DependentUpon>
     </Compile>
+    <Compile Update="CarouselExample.xaml.cs">
+      <DependentUpon>CarouselExample.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Icons\" />
