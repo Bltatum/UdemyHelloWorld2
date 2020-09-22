@@ -17,7 +17,9 @@ namespace UdemyHelloWorld2
             //};
 
 
-             MainPage = new NavigationPage(new ToolBar());
+            // MainPage = new TabbleView();
+
+            MainPage = new NavigationPage(new TabbleView());
             
            
         }
