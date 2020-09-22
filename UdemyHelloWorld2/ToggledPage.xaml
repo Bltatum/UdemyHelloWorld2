@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    Padding="40"
+    xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="UdemyHelloWorld2.ToggledPage">
+    <StackLayout>
+        <Switch IsToggled="True" x:Name="switch"/>
+        <Label Text="Content is Visible" IsVisible="{Binding Source={x:Reference switch}, Path=IsToggled}" FontSize="{Binding Source={x:Reference slider}, Path=Value}"/>
+
+        <Slider x:Name="slider" Maximum="50" Minimum="10" Value="25" />
+        <Label Text="{Binding Source={x:Reference slider},Path=Value, StringFormat='{0:N0}'}"/>
+
+        <Stepper x:Name="stepper" Increment="5"/>
+        <Label Text="{Binding Source={x:Reference stepper}, Path=Value}"/>
+    </StackLayout>
+    
+</ContentPage>

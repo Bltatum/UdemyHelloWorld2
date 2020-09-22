@@ -8,7 +8,7 @@
     <StackLayout>
         <Label Text="{Binding Name}" FontSize="12" FontAttributes="Bold"/>
         <controls:CircleImage Source="{Binding ImageUrl}" HeightRequest="60" WidthRequest="60" Aspect="AspectFill" HorizontalOptions="Start"/>
-        <Label Text="{Binding Discription}" TextColor="Gray" FontSize="12"/>
+        <Label Text="{Binding Description}" TextColor="Gray" FontSize="12"/>
     </StackLayout>
 
 </ContentPage>

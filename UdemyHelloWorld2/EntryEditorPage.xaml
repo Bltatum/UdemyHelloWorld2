@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    Padding="40"
+    xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="UdemyHelloWorld2.EntryEditorPage">
+   
+    <StackLayout>
+       <Entry Keyboard="Telephone" Placeholder="Phone" TextChanged="Entry_TextChanged"/>
+       <Label x:Name="phone"/>
+
+       <Entry Keyboard="Email" Placeholder="Email"/>
+
+       <Entry Keyboard="Text" Placeholder="Text"/>
+
+       <Entry IsPassword="True" Placeholder="Password" Completed="Entry_Completed"/>
+       <Label x:Name="label"/>
+
+       <Picker Title="Contact Method" x:Name="contactMethods" SelectedIndexChanged="Picker_SelectedIndexChanged">
+           <Picker.Items>
+               <x:String>SMS</x:String>
+                <x:String>Email</x:String>
+           </Picker.Items>
+       </Picker>
+
+       <DatePicker/>
+
+       <TimePicker/>
+
+       <Editor BackgroundColor="Gray" VerticalOptions="FillAndExpand"/>
+
+       <Button Clicked="Button_Clicked" Text="Save" />
+   </StackLayout>
+</ContentPage>
